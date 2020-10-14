@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        ==============================
+        =  Md Mustafizur Rahman     =
+        ==============================
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/lumen/bootstrap.min.css">
+    <title>Love Calculator | Md Mustafizur Rahman </title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container names">
+        <h1 class="text-danger mt-4 text-center">ভালোবাসার ক্যালকুলেটর </h1>
+        <form class="mt-5" id="love-calculator">
+            <center><div class="form-column">
+                <div class="form-group col-md-6">
+                    <label for="yourname">তোমার নাম লেখো </label>
+                    <input type="text" class="form-control input-lg" id="yourname" placeholder="Enter Your Name" />
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="theirname">তোমার গার্লফ্রয়েন্ড লেখো </label>
+                    <input type="text" class="form-control input-lg" id="theirname" placeholder="Enter Her/His Name" />
+                </div>
+            </div>
+            </center>
+        </form>
+        <center>
+        <button class="btn btn-danger">এই খানে ক্লিক করো </button>
+        </center>
+
+    </div>
+
+    <div class="container mt-5">
+        <!-- Result Container Above 70% -->
+        <div class="alert alert-success" style=" display: none;" role="alert">
+            <h5 class="alert-heading">Congratulations / অভিনন্দন!</h5>
+            <p id="result"></p>
+        </div>
+        <!-- Result Container Above 30% -->
+        <div class="alert alert-warning" style=" display: none;" role="alert">
+            <h5 class="alert-heading">Best Wishes / শুভ কামনা!</h5>
+            <p id="result1"></p>
+        </div>
+        <!-- Result Container Below 30% -->
+        <div class="alert alert-danger" style=" display: none;" role="alert">
+            <h5 class="alert-heading">Put More Concentration / আরও মনোনিবেশ করুন!</h5>
+            <p id="result2"></p>
+        </div>
+    </div>
+    <footer class="credit text-center mt-5">
+        <p>
+            Do you know why programmers don't have any girlfriend?
+            <a style="text-decoration: none; font-weight: bold; color: rgb(255, 111, 1);" target="_blank"
+                href="http://wpdeveloper24.com/simple/">Tell me why</a>
+        </p>
+        <p>
+            আপনি কি জানেন যে প্রোগ্রামারদের কোনও বান্ধবী নেই কেন?
+            <a style="text-decoration: none; font-weight: bold; color: rgb(255, 111, 1);" target="_blank"
+                href="http://wpdeveloper24.com/simple/">আমাকে বলো, কেন</a>
+        </p>
+        <p>
+           Design <span style="color: red;">♥</span> By
+            <a style="text-decoration: none; font-weight: bold; color: black;" target="_blank"
+                href="https://facebook.com/mustafijur76">Md Mustafizur Rahman </a>
+        </p>
+    </footer>
+    <!-- JS File Linking -->
+    <script src="app.js"></script>
+</body>
+</html>
